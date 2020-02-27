@@ -1,0 +1,19 @@
+{
+  "name": "reactrp-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck2.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-source-instagram": "^0.6.1",
+    "mdx-deck": "^4.1.0",
+    "prettier": "^1.19.1"
+  }
+}

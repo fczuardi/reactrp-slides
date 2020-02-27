@@ -1,0 +1,321 @@
+import {book, comic} from '@mdx-deck/themes';
+import FullSlide from './layouts/FullSlide'
+import Footnote from './layouts/Footnote'
+export const theme = comic;
+
+<Notes>
+
+## Intro
+Boa noite, meu nome é Fabricio, sou
+desenvolvedor ha muito tempo, meu background
+é em tecnologias web.
+
+Uso muito React no meu trabalho, trabalho
+numa startup Saocarlense chamada Stoq Tecnologia
+que desenvolve produtos e soluções para o varejo.
+
+Nossos principais clientes hoje são da área de
+food-service, entre eles a gelateria Bacio di Latte,
+que é, salvo engano, a maior do Brasil e possui filial aqui em Ribeirão.
+
+</Notes>
+
+# Gatsby for fun and profit
+#### Fabricio C Zuardi
+
+---
+
+<Notes>
+
+# Outline
+
+Hoje eu estou aqui para apresentar um pouco
+do projeto Gatsby, mas não só isso.
+
+Eu quero ajudar vocês a até o fim desta apresentação a entender 4 coisas:
+
+1. A proposta do projeto Gatsby
+1. O valor de iterações rápidas
+1. Um pouco de como esta ferramenta funciona
+1. E se der tempo, discutir e mostrar o quão longe é possível chegar, antes de precisar de um time de Ops ou mesmo backend
+
+(se der tempo: What comes after “serverless”)
+
+</Notes>
+
+## Outline
+
+<div style={{textAlign: 'left'}}> 
+
+<Steps>
+
+### Gatsby vision
+
+### Iteration speed
+
+### Gatsby overview
+
+### How far can you go with a static site
+
+</Steps>
+
+</div>
+
+---
+
+## Gabsty Vision
+
+---
+
+<Notes>
+
+## Gatsby Vision
+
+Vamos começar então pela filosofia e visao do projeto.
+
+Construct new, higher-level web building blocks
+
+Construir uma linguagem de alto nível para a web,
+no fim do dia o que o browser entende é CSS HTML e JS
+mas não precisamos escrever nossos sites nestas linguagens
+assim como nao precisamos escrever codigo de máquina / assembly.
+
+Estamos num evento de React, alguém tem saudades dos tempos de antes do react?
+Manipulação de DOM? Escrever HTML na unha? CSS global? Template languages
+com apenas um subset de lógica e não o Javascript todo.
+
+</Notes>
+
+
+“You get simplicity by finding slightly more sophisticated building blocks“.
+— Alan Kay
+
+<Footnote>
+
+1. [Gatsby Core Philosophy](https://www.gatsbyjs.org/docs/gatsby-core-philosophy/)
+1. [Alan Kay, 2015: Power of Simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs)
+1. [Making website building fun](https://www.gatsbyjs.org/blog/2017-10-16-making-website-building-fun/#find-the-right-building-blocks)
+
+</Footnote>
+
+---
+
+<img src="Cassini_apparent.jpg" alt="" />
+
+<Notes>
+
+## Gatsby Vision
+
+O exemplo que o Alan Kay citado no slide anterior da nesta apresentacao que influenciou
+a filosofia do Gatsby, é o de como os cientistas do seculo 16 tetavam descrever as orbitas
+dos planetas assumindo que elas eram circulos.
+
+E o Kepler ter o insight de tentar descrever estas orbitas usando elipses ao inves de ciruclos
+os modelos ficaram dramaticamente mais simples.
+
+Antes de Kepler outros podem ter pensado nisso e desistido da ideia pois pessoas muito mais
+inteligentes certamente "ja devem ter tentado".
+
+From ancient times to the 1600s, people believed that the planets’ orbits must be perfect circles.
+This false belief introduced a ton of complexity into their models.
+This complexity persisted until Kepler came along with the stunning insight (hindsight sarcasm)
+that no, orbits were elliptical not circular. With this new insight, models of planetary motion became dramatically simpler.
+
+</Notes>
+
+---
+
+## Iteration Speed
+
+---
+
+<img src="./path.jpg" alt="" />
+
+<Footnote>
+<div style={{backgroundColor:'white'}}>
+
+- [British print - game-board (1940s)](https://www.flickr.com/photos/bibliodyssey/3037597301) by [Paul K](https://www.flickr.com/photos/bibliodyssey/)
+
+</div>
+</Footnote>
+
+---
+
+
+<FullSlide>
+<img src="iteration1.jpg" alt="" />
+</FullSlide>
+
+---
+
+<FullSlide>
+<img src="iteration2.jpg" alt="" />
+</FullSlide>
+
+---
+
+<FullSlide>
+<img src="iteration3.jpg" alt="" />
+</FullSlide>
+
+---
+
+<FullSlide>
+<img src="iteration4.jpg" alt="" />
+</FullSlide>
+
+---
+
+<FullSlide>
+<img src="iteration5.jpg" alt="" />
+</FullSlide>
+
+---
+
+<FullSlide>
+<img src="iteration6.jpg" alt="" />
+</FullSlide>
+
+---
+
+<img src="./path.jpg" alt="" />
+
+---
+
+<FullSlide>
+<img src="iteration-small.jpg" alt="" />
+</FullSlide>
+
+---
+
+<img src="estrada-rug.jpg" alt="" />
+
+---
+
+<FullSlide>
+<img src="iteration6.jpg" alt="" />
+</FullSlide>
+
+---
+
+## Gatsby Overview
+
+---
+
+<Notes>
+
+## Gatsby Overview
+
+</Notes>
+
+
+<img src="gatsby-diagram.png" alt="" />
+
+---
+
+Wordpress x Gatsby
+
+Ghost x Gatsby
+
+Next.js x Gatsby
+
+Jekyll, Hugo x Gatsby
+
+<Footnote>
+
+1. [Comparison of Gatsby vs WordPress](https://www.gatsbyjs.org/features/cms/gatsby-vs-wordpress/)
+1. [How Next.js and Gatsby work and their differences](https://www.youtube.com/watch?v=xC4Yq_mXvPM)
+1. [Comparison of Gatsby vs Jekyll vs Hugo](https://www.gatsbyjs.org/features/jamstack/gatsby-vs-jekyll-vs-hugo)
+
+</Footnote>
+
+<Notes>
+
+## Gstsby Fence
+
+### Wordpress
+Like Wordpress, Gatsby have a rich ecossystem of plugins and themes.
+Gatsby however is focused on generating static content.
+Gatsby is not attached to any particular
+
+Like Next.js, Gatsby 
+Next.js is dinamically rendered, Gatsby is statically generated.
+
+Jekyll and Hugo are static site generators like Gatsby.
+
+</Notes>
+
+---
+
+Wordpress + Gatsby
+
+Ghost + Gatsby
+
+Next.js x Gatsby
+
+Jekyll, Hugo x Gatsby
+
+<Footnote>
+
+1. [Sourcing from WordPress](https://www.gatsbyjs.org/docs/sourcing-from-wordpress/)
+1. [Sourcing from Ghost](https://www.gatsbyjs.org/docs/sourcing-from-ghost/)
+
+</Footnote>
+
+---
+
+## How far can you go with a static site
+
+<Footnote>
+
+1. [The Power of Serverless](https://serverless.css-tricks.com/)
+1. [Delivering Modern Website Experiences: The Journey to a Content Mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh)
+
+</Footnote>
+
+<Notes>
+
+### O quão longe dá para ir antes de precisar de um backend
+
+</Notes>
+
+---
+
+## JAM Stack
+
+<Footnote>
+
+1. https://jamstack.org/
+2. https://jamstack.wtf/
+
+</Footnote>
+
+---
+
+![](three-website-revolutions.png)
+
+---
+
+![](content-mesh.png)
+
+---
+
+<div style={{textAlign: 'left'}}> 
+
+### Gatsby vision
+
+### Iteration speed
+
+### Gatsby overview
+
+### How far can you go with a static site
+
+</div>
+
+<Notes>
+
+# Contributions
+
+</Notes>
+
+---
